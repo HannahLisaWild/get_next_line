@@ -6,7 +6,7 @@
 /*   By: hawild <hawild@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/15 14:27:53 by hawild            #+#    #+#             */
-/*   Updated: 2024/02/12 14:30:55 by hawild           ###   ########.fr       */
+/*   Updated: 2024/02/13 14:57:59 by hawild           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,20 +113,17 @@ char	*get_next_line(int fd)
 // 	int		fd;
 // 	char	*line;
 
-// 	// Open the file "example.txt"
-// 	fd = open("est.txt", O_RDONLY);
+// 	fd = open("example.txt", O_RDONLY);
 // 	if (fd == -1)
 // 	{
 // 		perror("Error opening the file");
 // 		return (1);
 // 	}
-// 	// Loop to read lines until get_next_line returns NULL
 // 	while ((line = get_next_line(fd)) != NULL)
 // 	{
 // 		printf("Line read: %s", line);
-// 		free(line); // Free the line after using it
+// 		free(line);
 // 	}
-// 	// Close the file
 // 	if (close(fd) == -1)
 // 	{
 // 		perror("Error closing the file");
@@ -139,11 +136,10 @@ char	*get_next_line(int fd)
 // {
 //     char *line;
 
-//     // Loop to read lines until get_next_line returns NULL
 //     while ((line = get_next_line(0)) != NULL)
 //     {
 //         printf("Line read: %s\n", line);
-//         free(line); // Free the line after using it
+//         free(line);
 //     }
 //     return (0);
 // }
