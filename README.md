@@ -1,4 +1,4 @@
-# get_next_line
+# 42_project_get_next_line
 
 A project for reading lines from a file descriptor, one at a time, in C.
 
