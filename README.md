@@ -31,6 +31,19 @@ Compile using the provided Makefile:
 
 ```bash
 make
+
+🧠 Learning Outcomes
+
+    Managing file descriptors and buffered input in C.
+
+    Handling dynamic memory allocation and freeing.
+
+    Implementing efficient line-by-line reading.
+
+    Understanding static variables for persistent state.
+
+    Working with system calls such as read.
+
 🚀 Usage
 
 Include libftgnl.a in your project and use get_next_line like this:
